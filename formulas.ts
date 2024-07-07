@@ -1,3 +1,4 @@
+// дискриминант
 const calcRoots: (a: number, b: number, c: number) => number | string = (a, b, c) => {
     const d: number = b * b - 4 * a * c;
 
@@ -14,7 +15,7 @@ const calcRoots: (a: number, b: number, c: number) => number | string = (a, b, c
 };
 
 
-
+// давление жидкости
 const calcPressure = (p: number, g: number, h: number): number => {
     const pressure: number = p * g * h;
     return pressure;
