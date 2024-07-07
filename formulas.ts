@@ -1,5 +1,5 @@
 // дискриминант
-const calcRoots: (a: number, b: number, c: number) => number | string = (a, b, c) => {
+const calcRoots = (a: number, b: number, c: number): number | string => {
     const d: number = b * b - 4 * a * c;
 
     if (d < 0) {
